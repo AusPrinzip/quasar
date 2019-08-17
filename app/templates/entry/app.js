@@ -10,7 +10,7 @@
  * Boot files are your "main.js"
  **/
 import Vue from 'vue'
-import './import-quasar.js'
+// import './import-quasar.js'
 
 <% if (ctx.mode.ssr) { %>
 import <%= framework.all ? 'Quasar' : '{ Quasar }' %> from 'quasar'
